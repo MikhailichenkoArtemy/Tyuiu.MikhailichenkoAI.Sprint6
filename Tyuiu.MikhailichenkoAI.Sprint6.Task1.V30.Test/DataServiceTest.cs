@@ -9,7 +9,7 @@ namespace Tyuiu.MikhailichenkoAI.Sprint6.Task1.V30.Test
         [TestMethod]
         public void ValidGetMassFunction()
         {
-            DataService ds = new DataService();
+            DataService ds = new DataService(); 
 
             int startValue = -5;
             int stopValue = 5;
