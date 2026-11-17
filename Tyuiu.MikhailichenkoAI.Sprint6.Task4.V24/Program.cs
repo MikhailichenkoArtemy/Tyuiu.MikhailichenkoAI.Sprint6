@@ -8,7 +8,7 @@ namespace Tyuiu.MikhailichenkoAI.Sprint6.Task4.V24
         [STAThread]
         static void Main()
         {
-            ApplicationConfiguration.Initialize();
+            ApplicationConfiguration.Initialize(); 
             Application.Run(new FormMain());
         }
     }
