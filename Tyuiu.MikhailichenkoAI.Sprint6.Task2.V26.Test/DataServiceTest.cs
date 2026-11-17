@@ -14,7 +14,7 @@ namespace Tyuiu.MikhailichenkoAI.Sprint6.Task2.V26.Test
             int startValue = -5;
             int stopValue = 5;
 
-            int len = stopValue - startValue + 1;
+            int len = stopValue - startValue + 1; 
 
             double[] valueWaitArray;
             valueWaitArray = new double[len];
