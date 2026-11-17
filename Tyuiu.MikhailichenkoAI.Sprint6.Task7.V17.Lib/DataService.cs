@@ -8,7 +8,7 @@ namespace Tyuiu.MikhailichenkoAI.Sprint6.Task7.V17.Lib
     {
         public int[,] GetMatrix(string path)
         {
-            string fileData = File.ReadAllText(path);
+            string fileData = File.ReadAllText(path); 
             fileData = fileData.Replace('\n', '\r');
             string[] lines = fileData.Split(new char[] { '\r' }, StringSplitOptions.RemoveEmptyEntries);
 
