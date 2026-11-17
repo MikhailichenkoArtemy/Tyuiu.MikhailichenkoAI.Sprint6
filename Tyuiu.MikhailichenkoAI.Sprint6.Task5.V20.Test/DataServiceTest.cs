@@ -11,7 +11,7 @@ namespace Tyuiu.MikhailichenkoAI.Sprint6.Task5.V20.Test
         public void CheckedExistsFile()
         {
             string path = Path.Combine(Path.GetTempPath(), "InPutFileTask5V20.txt");
-            File.WriteAllText(path, "16\n-12\n5");
+            File.WriteAllText(path, "16\n-12\n5"); 
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             bool wait = true;

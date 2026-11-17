@@ -12,7 +12,7 @@ namespace Tyuiu.MikhailichenkoAI.Sprint6.Task5.V20.Lib
         public double[] LoadFromDataFile(string path)
         {
             len = 0;
-            using (StreamReader reader = new StreamReader(path))
+            using (StreamReader reader = new StreamReader(path)) 
             {
                 string line;
                 while ((line = reader.ReadLine()) != null)
