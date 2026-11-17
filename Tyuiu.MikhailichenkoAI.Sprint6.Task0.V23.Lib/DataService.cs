@@ -7,7 +7,7 @@ namespace Tyuiu.MikhailichenkoAI.Sprint6.Task0.V23.Lib
     {
         public double Calculate(int x)
         {
-            double res = Math.Log((double)(x + 1) / (x + 2));
+            double res = Math.Log((double)(x + 1) / (x + 2)); 
             return Math.Round(res, 3);
         }
     }

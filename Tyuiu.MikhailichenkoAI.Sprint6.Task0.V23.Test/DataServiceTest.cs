@@ -9,7 +9,7 @@ namespace Tyuiu.MikhailichenkoAI.Sprint6.Task0.V23.Test
         [TestMethod]
         public void ValidCalc()
         {
-            DataService ds = new DataService();
+            DataService ds = new DataService(); 
             int x = 3;
             double res = ds.Calculate(x);
             double wait = -0.223;
