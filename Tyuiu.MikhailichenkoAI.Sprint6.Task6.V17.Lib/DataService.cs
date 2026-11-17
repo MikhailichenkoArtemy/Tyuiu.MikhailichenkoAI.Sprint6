@@ -8,7 +8,7 @@ namespace Tyuiu.MikhailichenkoAI.Sprint6.Task6.V17.Lib
     {
         public string CollectTextFromFile(string path)
         {
-            string resStr = "";
+            string resStr = ""; 
             using (StreamReader reader = new StreamReader(path))
             {
                 string? line;
