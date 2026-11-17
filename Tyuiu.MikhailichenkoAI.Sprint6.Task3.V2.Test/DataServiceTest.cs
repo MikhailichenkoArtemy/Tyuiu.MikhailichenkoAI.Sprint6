@@ -12,7 +12,7 @@ namespace Tyuiu.MikhailichenkoAI.Sprint6.Task3.V2.Test
             DataService ds = new DataService();
 
             int[,] mas2 = new int[5, 5] {
-                { -12, -4, -20, 5, -5 },
+                { -12, -4, -20, 5, -5 }, 
                 { 2, 15, 1, -20, 7 },
                 { 15, -15, 2, 11, 5 },
                 { -19, -9, 16, 0, 1 },

@@ -10,7 +10,7 @@ namespace Tyuiu.MikhailichenkoAI.Sprint6.Task3.V2.Lib
             int rows = matrix.GetUpperBound(0) + 1;
             int columns = matrix.Length / rows;
 
-            for (int j = 0; j < columns; j++)
+            for (int j = 0; j < columns; j++) 
             {
                 if (matrix[0, j] % 2 == 0)
                 {
